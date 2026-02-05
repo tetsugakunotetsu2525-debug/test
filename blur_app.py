@@ -67,7 +67,7 @@ with tab1:
                 blurred_images.append(blurred_img)
                 
                 with cols[idx % len(cols)]:
-                    st.image(blurred_img, width=150)
+                    st.image(blurred_img, width=200)
             
             st.subheader("ダウンロード")
             
